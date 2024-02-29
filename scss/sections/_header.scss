@@ -1,0 +1,27 @@
+.header{
+    //background-color: #C01A7D;
+    background-color: $magenta; //uso la variable
+    ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; //Evito el scroll horizontal cuando achico la pantalla
+        text-decoration: none;
+        list-style: none; /*saqué las viñetas*/
+        justify-content: space-around;
+        a{
+            background-color: #ffe4c475;
+            display: flex;
+            flex-direction: row; //No saco el display flex porque a es una etiqueta en linea
+            font-family: $fuente-titulo;
+            width: 150px;
+            margin: 20px;
+            padding: 5px;
+            justify-content: center;
+            text-decoration: none;
+            &:hover{                //pseudoclase
+                //background-color: #ffe4c4ad;
+                background-color: $color-hover; //uso una variable para poner el color
+            }
+        }
+    }
+}

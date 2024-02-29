@@ -1,0 +1,18 @@
+.main{
+    background-color: $blanco;
+    h1{
+        text-align: center;
+        font-family: $fuente-titulo;
+        padding: 5px;
+    }
+    .seccion-uno{
+        border: solid $azul 3px;
+        max-width: 350px;
+        button{
+            @extend .boton;
+            @extend .flex-center;
+        }
+       //@include fondo-destacado;  Esta linea me da error, dice que no existe el mixin fondo destacado
+    }
+
+}

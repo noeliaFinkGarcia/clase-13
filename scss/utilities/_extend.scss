@@ -1,0 +1,28 @@
+.boton {
+
+	width:50%; //Aplica el 50% del ancho del contenedoe
+	//height:50px;
+	background-color: $azul;
+	text-align:center;
+	color: $blanco;
+    margin: 5%;
+    padding: 10px;
+	border-radius:20px; // esto redondea los bordes
+	border:1px solid $turquesa;
+}
+
+.flex-center{   //centra todo el contenido de la caja. Es solo un ejemplo para usar extend
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+//MIXIN SIN PARÁMETROS
+@mixin fondo-destacado{
+    background-color: $turquesa;
+    color: $azul;
+    text-align: center;
+    padding: 20px;
+}

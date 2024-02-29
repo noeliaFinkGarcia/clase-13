@@ -12,7 +12,7 @@
             @extend .boton;
             @extend .flex-center;
         }
-       //@include fondo-destacado;  Esta linea me da error, dice que no existe el mixin fondo destacado
+       //@include fondo-destacado;  Esta linea me da error, dice que no existe el mixin fondo-destacado
     }
 
 }

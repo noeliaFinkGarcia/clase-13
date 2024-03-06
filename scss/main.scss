@@ -1,6 +1,8 @@
+
 @import './utilities/variables'; //Siempre va arriba de todo
+@import './utilities/extend'; //ABAJO DE LAS VARIABLES SIEMPRE LOS EXTEND Y MIXINS
 @import './utilities/reset';
 @import './sections/header';
 @import './sections/footer';
 @import './sections/content';
-@import './utilities/extend';
+
